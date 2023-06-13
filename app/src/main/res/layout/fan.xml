@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã login"
+        android:textColor="#00FFE7"
+        android:textSize="30dp"
+
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Run"
+        android:textSize="30dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/im_fan"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/fan_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="min"
+
+            />
+
+        <Button
+            android:id="@+id/btn_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="medium"
+            />
+
+        <Button
+            android:id="@+id/btn_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="max"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:textSize="30dp"
+        android:backgroundTint="#535353"
+        />
+
+</LinearLayout>

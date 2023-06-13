@@ -12,21 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab7_ph35654"
         tools:targetApi="31">
-        <activity
-            android:name=".bai1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+    <activity
+    android:name=".MainActivity"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".bai2"
-            android:exported="true">
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+    <activity android:name=".fan"
+        android:exported="false"></activity>
+    <activity android:name=".login"
+        android:exported="false"></activity>
+    <activity android:name=".sigin"
+        android:exported="false"></activity>
+    <activity android:name=".Activity_SV"
+        android:exported="false"></activity>
 
+    <activity android:name=".ThemSV"
+        android:exported="false">
 
-        </activity>
+    </activity>
     </application>
-
 </manifest>

@@ -4,31 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bai1">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center"
-    android:orientation="vertical">
+    tools:context=".MainActivity"
+    tools:ignore="Orientation">
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="379dp"
-        android:layout_height="151dp"
-        android:src="@drawable/logo_fpt" />
-
-    <TextView
-        android:id="@+id/wecom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         android:text="WELLCOME TO ANDROID 1"
-        android:textColor="#2BB2EF"
-        android:textSize="28dp"
-        android:textStyle="bold"
+        android:id="@+id/im_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logolab2"
         />
 
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELLCOME TO ANDROID 1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFC107"
 
-</LinearLayout>
-
+        />
 
 </LinearLayout>
